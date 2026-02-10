@@ -87,15 +87,17 @@ Sprawdź czy linki do social media są poprawne:
 
 1. ✅ **Wgrać zdjęcie profilowe** - GOTOWE!
 2. ✅ **Dodać favicon** - GOTOWE!
-4. **Zdecydować o projektach** - które zostawić, które dodać
-5. **Zaktualizować dane kontaktowe** (telefon, CV)
-6. **Zweryfikować linki** do social media
-7. **Zweryfikować linki** do social media
-6. **Uruchomić dev server** i przetestować:
-   ```bash
-   cd U:\WEB_PROJECTS\active\websites\PersonalBlog
-   npm run dev
-   ```
+3. ✅ **Uruchomić dev server** - GOTOWE! (http://localhost:3000)
+4. **Dodać prawdziwy WakaTime API Key** do `.env.local`
+5. **Zdecydować o projektach** - które zostawić, które dodać
+6. **Zaktualizować dane kontaktowe** (telefon, CV)
+7. **Zweryfikować linki** do social media  
+8. **Rozważyć dodanie stron** /projects i /gallery (obecnie 404)
+
+## ⚠️ **Wykryte podczas testów:**
+- WakaTime API zwraca 401 (brak prawdziwego klucza)
+- Błędy 404: `/projects` i `/gallery` (do rozważenia czy są potrzebne)
+- Uruchomienie: `node node_modules\next\dist\bin\next dev` (zamiast `npm run dev`)
 
 ## 📁 Zmienione Pliki
 1. `src/app/layout.tsx` - metadata i SEO
