@@ -161,23 +161,23 @@
         "faqData": [
             {
                 "q": "Apa bidang keahlian utama Anda?",
-                "a": "Sebagai mahasiswa Teknologi Informasi di Telkom University dan Asisten Peneliti di Laboratorium Cyber Physical System, saya berspesialisasi dalam persimpangan Kecerdasan Buatan (Computer Vision & Deep Learning), Full-stack Development (Next.js & Node.js), dan teknologi Blockchain/Web3 yang sedang berkembang."
+                "a": "Saya berspesialisasi dalam Full Stack Development, Kecerdasan Buatan (Computer Vision & Deep Learning), dan teknologi Blockchain/Web3. Saya bersemangat menciptakan solusi inovatif di persimpangan AI dan pengembangan web modern."
             },
             {
                 "q": "Apakah Anda tersedia untuk kolaborasi riset atau freelance?",
-                "a": "Tentu saja. Saat ini saya aktif dalam riset AI di CPS Lab dan Pusat Riset HUMIC, tetapi saya selalu terbuka untuk proyek freelance inovatif, magang, atau kolaborasi teknis yang menjembatani inovasi dengan eksekusi strategis."
+                "a": "Tentu saja. Saya selalu terbuka untuk proyek freelance inovatif, kolaborasi teknis, dan kemitraan yang menjembatani inovasi dengan eksekusi strategis."
             },
             {
                 "q": "Apa tech stack tipikal Anda untuk produksi?",
-                "a": "Untuk proyek AI, saya menggunakan Python dengan TensorFlow, PyTorch, dan YOLO. Untuk aplikasi web, andalan saya adalah stack T3: Next.js, TypeScript, dan Tailwind CSS, sering kali diintegrasikan dengan Agen AI atau Smart Contracts jika sesuai."
+                "a": "Untuk proyek AI, saya menggunakan Python dengan TensorFlow, PyTorch, dan YOLO. Untuk aplikasi web: Next.js, TypeScript, dan Tailwind CSS, sering diintegrasikan dengan Agen AI atau Smart Contracts jika sesuai."
             },
             {
-                "q": "Apakah Anda memiliki pengalaman dengan proyek enterprise atau lab?",
-                "a": "Ya, saya pernah menjabat sebagai System Analyst dan Pengembang AI di berbagai lingkungan berbasis riset. Saya telah merancang mulai dari platform AIoT dan sistem deteksi serangan hingga modul praktikum siswa untuk audiens global."
+                "q": "Apakah Anda memiliki pengalaman dengan proyek enterprise?",
+                "a": "Ya, saya telah bekerja pada berbagai proyek teknis mulai dari pengembangan AI hingga aplikasi web full-stack. Saya fokus membangun solusi yang dapat diskalakan dan siap produksi."
             },
             {
                 "q": "Bagaimana cara memulai kemitraan atau proyek?",
-                "a": "Cara paling efisien adalah menggunakan formulir kontak di atas atau menghubungi langsung melalui email di azril4974@gmail.com. Saya biasanya dapat merespons dalam waktu 24 jam untuk mendiskusikan bagaimana keterampilan teknis saya dapat memberikan nilai tambah bagi inisiatif Anda."
+                "a": "Cara paling efisien adalah menggunakan formulir kontak di atas atau menghubungi langsung melalui email di karol@jimbo77.com. Saya biasanya merespons dalam 24 jam untuk mendiskusikan bagaimana keterampilan teknis saya dapat memberikan nilai tambah."
             }
         ]
     },

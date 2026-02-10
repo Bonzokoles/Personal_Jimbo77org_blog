@@ -1,11 +1,11 @@
 
-# 🚀 Syahril Arfian Almazril - Creative Portfolio
-### AI Engineer | Software Engginer | Tech Exploler
+# 🚀 Karol Lisson Bonzo - Tech Explorer & AI Architect
+### AI Engineer | Full Stack Developer | Blockchain Enthusiast
 
 <br>
 
 <p align="center">
-  <a href="https://personal-iqyuflz4z-arfazrlls-projects.vercel.app"><strong>Live Preview</strong></a> |
+  <a href="https://jimbo77.com"><strong>Live Preview</strong></a> |
   <a href="#-key-features"><strong>Features</strong></a> |
   <a href="#-tech-stack"><strong>Tech Stack</strong></a> |
   <a href="#-installation"><strong>Installation</strong></a>
@@ -114,7 +114,7 @@ npm install
 3. **Environment Variables**:
 Create a `.env.local` file in the root directory:
 ```env
-NEXT_PUBLIC_GITHUB_USERNAME=Arfazrll
+NEXT_PUBLIC_GITHUB_USERNAME=Bonzokoles
 WAKATIME_API_KEY=your_wakatime_key
 
 ```
@@ -139,8 +139,8 @@ This project is licensed under the **MIT License**. Feel free to use it as a fou
 
 ## 🤝 Contact
 
-* **Email**: [azril4974@gmail.com](mailto:azril4974@gmail.com)
-* **LinkedIn**: [syahril-arfian-almazril](https://linkedin.com/in/syahril-arfian-almazril)
-* **GitHub**: [@Arfazrll](https://github.com/Arfazrll)
+* **Email**: [karol@jimbo77.com](mailto:karol@jimbo77.com)
+* **LinkedIn**: [karol-bonzo](https://linkedin.com/in/karol-bonzo)
+* **GitHub**: [@Bonzokoles](https://github.com/Bonzokoles)
 
-<p align="right">(<a href="#-syahril-arfian-almazril---creative-portfolio">Back to Top</a>)</p>
+<p align="right">(<a href="#-karol-lisson-bonzo---tech-explorer--ai-architect">Back to Top</a>)</p>

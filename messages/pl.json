@@ -89,8 +89,12 @@
                 "a": "Do projektów AI używam Python z TensorFlow, PyTorch i YOLO. Do aplikacji webowych: Next.js, TypeScript i Tailwind CSS."
             },
             {
+                "q": "Czy masz doświadczenie z projektami enterprise?",
+                "a": "Tak, pracowałem nad różnymi projektami technicznymi, od rozwoju AI po aplikacje full-stack. Skupiam się na budowaniu skalowalnych, gotowych do produkcji rozwiązań."
+            },
+            {
                 "q": "Jak możemy rozpocząć współpracę?",
-                "a": "Najlepiej skorzystać z formularza kontaktowego powyżej lub napisać bezpośrednio na email."
+                "a": "Najlepiej skorzystać z formularza kontaktowego powyżej lub napisać bezpośrednio na karol@jimbo77.com. Zazwyczaj odpowiadam w ciągu 24 godzin, aby omówić jak moje umiejętności techniczne mogą wnieść wartość do Twojego projektu."
             }
         ]
     },
