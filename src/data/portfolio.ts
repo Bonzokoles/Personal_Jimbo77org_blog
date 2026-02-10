@@ -14,7 +14,7 @@ export const portfolioData: PortfolioData = {
         website: 'https://jimbo77.com',
         languages: [
             { name: 'Polish', level: 'Native' },
-            { name: 'English', level: 'Professional Working' },
+            { name: 'English', level: 'Professional' },
             { name: 'German', level: 'Elementary' },
         ],
         socialLinks: [
