@@ -98,8 +98,8 @@ src/
 
 1. **Clone the Repository**:
 ```bash
-git clone [https://github.com/Arfazrll/PersonalBlog.git](https://github.com/Arfazrll/PersonalBlog.git)
-cd PersonalBlog
+git clone https://github.com/Bonzokoles/Personal_Jimbo77org_blog.git
+cd Personal_Jimbo77org_blog
 
 ```
 

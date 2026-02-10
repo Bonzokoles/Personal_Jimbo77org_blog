@@ -107,9 +107,10 @@ Sprawdź czy linki do social media są poprawne:
 2. `.env.local` - konfiguracja środowiskowa (nowy plik)
 
 ## 🔗 Główne Linki
-- Repo: https://github.com/Bonzokoles/PersonalBlog
+- Repo: https://github.com/Bonzokoles/Personal_Jimbo77org_blog
 - Website: https://jimbo77.com
 - Email: karol@jimbo77.com
+- Dev Server: http://localhost:3000
 
 ## 🤖 Bonus: R2 + Automatyczny Image Publisher Agent
 
