@@ -1,0 +1,25 @@
+name = "bonzo-portfolio"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = ".next"
+
+# Cloudflare D1 Database - dla artykułów bloga
+# Aby utworzyć: wrangler d1 create bonzo-blog-db
+# Skopiuj database_id z outputu i wklej poniżej
+[[d1_databases]]
+binding = "DB"
+database_name = "bonzo-blog-db"
+database_id = "YOUR_D1_DATABASE_ID_HERE"  # Zmień na prawdziwy ID
+
+# Cloudflare R2 Storage - dla zdjęć i mediów
+# Aby utworzyć: wrangler r2 bucket create bonzo-images
+[[r2_buckets]]
+binding = "IMAGES"
+bucket_name = "bonzo-images"
+
+# Environment Variables (alternatywnie ustaw w Cloudflare Dashboard)
+[vars]
+ENVIRONMENT = "production"
+
+# Preview environment (dla testów)
+[env.preview]
+name = "bonzo-portfolio-preview"

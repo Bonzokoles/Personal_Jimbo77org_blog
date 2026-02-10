@@ -974,7 +974,7 @@ WAKATIME_API_KEY=your_wakatime_key`
             date: '2025-01-15',
             category: 'ai',
             tags: ['AI', 'Agents', 'Enterprise'],
-            author: { name: 'Azril', avatar: '/about/arfazrll.jpeg' },
+            author: { name: 'Karol Bonzo', avatar: '/about/apple-touch-icon.jpg' },
             readTime: '5'
         },
         {
@@ -987,7 +987,7 @@ WAKATIME_API_KEY=your_wakatime_key`
             date: '2025-01-10',
             category: 'web3',
             tags: ['Web3', 'Blockchain', 'UX'],
-            author: { name: 'Azril', avatar: '/about/arfazrll.jpeg' },
+            author: { name: 'Karol Bonzo', avatar: '/about/apple-touch-icon.jpg' },
             readTime: '4'
         },
         {
@@ -1000,7 +1000,7 @@ WAKATIME_API_KEY=your_wakatime_key`
             date: '2025-01-05',
             category: 'coding',
             tags: ['Next.js', 'React', 'Performance'],
-            author: { name: 'Azril', avatar: '/about/arfazrll.jpeg' },
+            author: { name: 'Karol Bonzo', avatar: '/about/apple-touch-icon.jpg' },
             readTime: '6'
         },
         {
@@ -1013,7 +1013,7 @@ WAKATIME_API_KEY=your_wakatime_key`
             date: '2024-12-20',
             category: 'ai',
             tags: ['AI', 'Security', 'Deep Learning'],
-            author: { name: 'Azril', avatar: '/about/arfazrll.jpeg' },
+            author: { name: 'Karol Bonzo', avatar: '/about/apple-touch-icon.jpg' },
             readTime: '7'
         },
         {
@@ -1026,7 +1026,7 @@ WAKATIME_API_KEY=your_wakatime_key`
             date: '2024-12-15',
             category: 'ai',
             tags: ['LLM', 'Python', 'Ollama'],
-            author: { name: 'Azril', avatar: '/about/arfazrll.jpeg' },
+            author: { name: 'Karol Bonzo', avatar: '/about/apple-touch-icon.jpg' },
             readTime: '8'
         },
         {
@@ -1039,7 +1039,7 @@ WAKATIME_API_KEY=your_wakatime_key`
             date: '2024-12-10',
             category: 'web3',
             tags: ['Solidity', 'Ethereum', 'Security'],
-            author: { name: 'Azril', avatar: '/about/arfazrll.jpeg' },
+            author: { name: 'Karol Bonzo', avatar: '/about/apple-touch-icon.jpg' },
             readTime: '5'
         },
         {
@@ -1052,7 +1052,7 @@ WAKATIME_API_KEY=your_wakatime_key`
             date: '2024-12-05',
             category: 'coding',
             tags: ['React', 'Zustand', 'Architecture'],
-            author: { name: 'Azril', avatar: '/about/arfazrll.jpeg' },
+            author: { name: 'Karol Bonzo', avatar: '/about/apple-touch-icon.jpg' },
             readTime: '4'
         },
         {
@@ -1065,7 +1065,7 @@ WAKATIME_API_KEY=your_wakatime_key`
             date: '2024-11-25',
             category: 'coding',
             tags: ['IoT', 'ESP32', 'Edge'],
-            author: { name: 'Azril', avatar: '/about/arfazrll.jpeg' },
+            author: { name: 'Karol Bonzo', avatar: '/about/apple-touch-icon.jpg' },
             readTime: '6'
         },
         {
@@ -1078,7 +1078,7 @@ WAKATIME_API_KEY=your_wakatime_key`
             date: '2024-11-20',
             category: 'ai',
             tags: ['Healthcare', 'AI', 'Ethics'],
-            author: { name: 'Azril', avatar: '/about/arfazrll.jpeg' },
+            author: { name: 'Karol Bonzo', avatar: '/about/apple-touch-icon.jpg' },
             readTime: '7'
         }
     ],

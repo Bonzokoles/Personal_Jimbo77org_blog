@@ -103,5 +103,29 @@ Sprawdź czy linki do social media są poprawne:
 - Website: https://jimbo77.com
 - Email: karol@jimbo77.com
 
+## 🤖 Bonus: R2 + Automatyczny Image Publisher Agent
+
+**W Cloudflare R2 działa już agent**, który automatycznie:
+- ✅ Łączy zdjęcia z artykułami po nazwie pliku
+- ✅ Optymalizuje formaty (WebP, AVIF)
+- ✅ Tworzy responsywne warianty (400w, 800w, 1200w, 1920w)
+- ✅ Generuje alt text
+- ✅ Dodaje do publikacji w D1
+
+**Konwencja nazw:**
+```
+articles/{slug}-hero.jpg        → Główny obrazek
+articles/{slug}-1.jpg           → Obrazki w treści
+gallery/{slug}/image.jpg        → Galeria
+```
+
+**Upload:**
+```powershell
+wrangler r2 object put bonzo-images/articles/my-post-hero.jpg --file="./image.jpg"
+# Agent automatycznie przetworzy i podłączy do artykułu!
+```
+
+📖 **Pełna dokumentacja:** `The_yellow_hub_CLEAN/PROJECTS/PersonalBlog_Deployment_Manual.md` (sekcja R2 Image Publisher)
+
 ---
 **Notatka:** Strona główna i większość podstron używa danych z `portfolioData` w `src/data/portfolio.ts`, więc wszystkie aktualizacje tam automatycznie propagują się na całą stronę.
