@@ -12,6 +12,12 @@
 - ✅ Języki: Polski (Native), English (Professional), German (Elementary)
 - ✅ Avatar: `/about/apple-touch-icon.jpg`
 
+### Blog Posts (`src/data/portfolio.ts`)
+- ✅ **Wszystkie 9 postów blogowych zaktualizowane**
+- ✅ Autor zmieniony z "Azril" na **"Karol Bonzo"**
+- ✅ Avatar autora: `/about/apple-touch-icon.jpg`
+- ✅ Posty: Future of AI Agents, Web3 UX, Next.js Performance, AI Security, LLM Fine-Tuning, Smart Contracts, State Management, IoT Edge Computing, AI in Healthcare
+
 ### Layout & Metadata (`src/app/layout.tsx`)
 - ✅ Tytuły strony zaktualizowane
 - ✅ Meta description
