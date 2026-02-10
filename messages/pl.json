@@ -1,0 +1,170 @@
+{
+    "navigation": {
+        "home": "Start",
+        "blog": "Blog",
+        "contact": "Kontakt",
+        "menu": {
+            "blog": "Blog",
+            "blogDesc": "Przemyślenia i eksperymenty techniczne"
+        }
+    },
+    "hero": {
+        "greeting": "Witaj w moim cyfrowym świecie",
+        "subtitle": "Full Stack Developer • Inżynier AI • Data Scientist",
+        "cta": {
+            "primary": "Zobacz Blog",
+            "secondary": "Skontaktuj się"
+        },
+        "badge": "Otwarty na współpracę",
+        "scroll": "Przewiń w dół",
+        "role": "Kreatywny Developer",
+        "description": "Tworzę immersyjne doświadczenia cyfrowe na przecięciu <span class='text-primary font-semibold'>AI</span>, <span class='text-secondary font-semibold'>Designu</span> i <span class='text-accent font-semibold'>Wydajności</span>."
+    },
+    "about": {
+        "title": "O mnie",
+        "subtitle": "Eksplorator Technologii & Rozwiązywacz Problemów",
+        "description": "Pasjonat technologii specjalizujący się w Full Stack Development, Sztucznej Inteligencji i Data Science. Obecnie zgłębiam AI Agents i technologię Blockchain.",
+        "stats": {
+            "experience": "Lata Nauki",
+            "projects": "Projektów",
+            "certifications": "Certyfikatów",
+            "competitions": "Konkursów"
+        },
+        "identity": "Połączenie Tożsamości Ustanowione",
+        "architecting": "Architektura",
+        "digitalReality": "Cyfrowa Rzeczywistość"
+    },
+    "expertise": {
+        "title": "Kluczowe Kompetencje",
+        "subtitle": "Specjalizacja w najnowszych technologiach napędzających nowoczesne doświadczenia cyfrowe",
+        "dragHint": "Przeciągnij lub przewiń"
+    },
+    "contact": {
+        "title": "Skontaktuj się",
+        "subtitle": "Zbudujmy coś niesamowitego razem",
+        "form": {
+            "name": "Twoje imię",
+            "email": "Twój email",
+            "subject": "Temat",
+            "message": "Twoja wiadomość",
+            "messagePlaceholder": "Opowiedz mi o swoim projekcie...",
+            "send": "Wyślij wiadomość",
+            "submit": "WYŚLIJ",
+            "sending": "WYSYŁANIE...",
+            "sent": "WYSŁANO!",
+            "success": "Wiadomość wysłana pomyślnie!",
+            "error": "Coś poszło nie tak. Spróbuj ponownie."
+        },
+        "social": {
+            "title": "Social Media"
+        },
+        "faq": {
+            "title": "Najczęściej zadawane pytania"
+        },
+        "info": {
+            "email": "Email",
+            "phone": "Telefon",
+            "location": "Lokalizacja",
+            "availability": "Otwarty na projekty"
+        },
+        "hero": {
+            "title": "POROZMAWIAJMY",
+            "subtitle": "Masz pomysł? Zbudujmy coś niezwykłego razem.",
+            "ticker": {
+                "build": "Zbudujmy Coś Wspaniałego · ",
+                "freelance": "Dostępny Freelance · "
+            }
+        },
+        "faqData": [
+            {
+                "q": "Jaka jest Twoja główna specjalizacja?",
+                "a": "Specjalizuję się w Full Stack Development, Sztucznej Inteligencji (Computer Vision & Deep Learning) oraz technologiach Blockchain/Web3."
+            },
+            {
+                "q": "Czy jesteś dostępny do współpracy?",
+                "a": "Absolutnie. Jestem otwarty na innowacyjne projekty freelance, staże i współpracę techniczną."
+            },
+            {
+                "q": "Jaki jest Twój typowy stack technologiczny?",
+                "a": "Do projektów AI używam Python z TensorFlow, PyTorch i YOLO. Do aplikacji webowych: Next.js, TypeScript i Tailwind CSS."
+            },
+            {
+                "q": "Jak możemy rozpocząć współpracę?",
+                "a": "Najlepiej skorzystać z formularza kontaktowego powyżej lub napisać bezpośrednio na email."
+            }
+        ]
+    },
+    "footer": {
+        "copyright": "Wszelkie prawa zastrzeżone.",
+        "madeWith": "Stworzone z",
+        "more": "Więcej",
+        "marquee": [
+            "Otwarty na Projekty",
+            "Frontend Development",
+            "Backend Architecture",
+            "UI/UX Design",
+            "Creative Coding",
+            "Optymalizacja Systemów"
+        ],
+        "cta": {
+            "title": "Pracujmy",
+            "titleHighlight": "Razem",
+            "subtitle": "Masz projekt? Zbudujmy coś niezwykłego, co rozwiązuje realne problemy."
+        }
+    },
+    "ctaSection": {
+        "title": "Zbudujmy Coś",
+        "together": "Razem",
+        "subtitle": "Gotów na współpracę przy AI, Web Development lub Blockchain? Działajmy.",
+        "start": "Rozpocznij Projekt",
+        "work": "Zobacz Moją Pracę",
+        "words": {
+            "amazing": "Niesamowitego",
+            "innovative": "Innowacyjnego",
+            "intelligent": "Inteligentnego",
+            "creative": "Kreatywnego"
+        }
+    },
+    "stats": {
+        "systemStatus": "Status Systemu: Analityka Aktywna",
+        "portfolio": "Portfolio Techniczne",
+        "totalPulse": "Całkowity Puls",
+        "peakActivity": "Szczytowa Aktywność",
+        "dailyAverage": "Średnia Dzienna",
+        "currentSprint": "Obecny Sprint",
+        "engageFlow": "Przepływ Zaangażowania",
+        "weeklyEffort": "Tygodniowy Wysiłek Kodowania",
+        "processSpeed": "Prędkość Procesu",
+        "avgPerf": "Średnia Wydajność",
+        "latency": "OPÓŹNIENIE: 14MS",
+        "system": "SYSTEM: DARWIN_X64_STABLE",
+        "scanning": "SKANOWANIE_ZASOBÓW_NA_ŻYWO"
+    },
+    "common": {
+        "loading": "Ładowanie...",
+        "error": "Coś poszło nie tak",
+        "notFound": "Strona nie znaleziona",
+        "backHome": "Powrót do Strony Głównej",
+        "viewMore": "Zobacz Więcej",
+        "readMore": "Czytaj Dalej",
+        "close": "Zamknij",
+        "download": "Pobierz",
+        "share": "Udostępnij"
+    },
+    "blog": {
+        "title": "Przemyślenia & Eksperymenty",
+        "subtitle": "Pomost między złożonością techniczną a praktyczną implementacją. Zbiór spostrzeżeń o AI, Web3 i Software Engineering.",
+        "search": "Szukaj artykułów...",
+        "readTime": "min czytania",
+        "readMore": "Czytaj Post",
+        "back": "Powrót do Bloga",
+        "noResults": "Nie znaleziono artykułów",
+        "categories": {
+            "all": "Wszystkie",
+            "ai": "AI & ML",
+            "web3": "Blockchain",
+            "coding": "Development",
+            "other": "Insights"
+        }
+    }
+}

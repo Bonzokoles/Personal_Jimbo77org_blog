@@ -9,7 +9,6 @@ import { Menu, X, Moon, Sun, Globe, ChevronDown } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import { cn } from '@/lib/utils';
 
-import CardNav from '@/components/ui/CardNav';
 import { AnimatedThemeToggler } from '@/components/ui/animated-theme-toggler';
 
 function Clock() {
@@ -43,27 +42,8 @@ function Clock() {
     );
 }
 
-// Sub-links for the "About" dropdown
-// Sub-links for the "About" dropdown
-const useNavItems = () => {
-    const t = useTranslations('navigation.menu');
-    return [
-        {
-            label: "About",
-            links: [
-                { label: t('achievements'), href: "/achievements", description: t('achievementsDesc') },
-                { label: t('skills'), href: "/skills", description: t('skillsDesc') },
-                { label: t('experience'), href: "/experience", description: t('experienceDesc') },
-                { label: t('projects'), href: "/projects", description: t('projectsDesc') },
-                { label: t('blog'), href: "/blog", description: t('blogDesc') },
-            ]
-        }
-    ];
-};
-
 export function Navbar() {
     const t = useTranslations('navigation');
-    const navItems = useNavItems();
     const { theme, setTheme, resolvedTheme } = useTheme();
     const pathname = usePathname();
     const { scrollY } = useScroll();
@@ -120,7 +100,7 @@ export function Navbar() {
     }, []);
 
     const toggleLocale = useCallback(() => {
-        const newLocale = currentLocale === 'en' ? 'id' : 'en';
+        const newLocale = currentLocale === 'en' ? 'pl' : 'en';
         document.cookie = `locale=${newLocale};path=/;max-age=31536000`;
         setCurrentLocale(newLocale);
         window.location.reload();
@@ -176,11 +156,16 @@ export function Navbar() {
                                 <span className="relative z-10">{t('home')}</span>
                             </Link>
 
-                            <CardNav
-                                items={navItems}
-                                theme={isDark ? 'dark' : 'light'}
-                                pathname={pathname}
-                            />
+                            {/* BLOG */}
+                            <Link
+                                href="/blog"
+                                className={cn(
+                                    'relative px-5 py-2 text-sm font-bold transition-all duration-300 rounded-full group',
+                                    pathname.startsWith('/blog') ? 'text-foreground bg-muted' : 'text-muted-foreground hover:text-foreground'
+                                )}
+                            >
+                                <span className="relative z-10">{t('blog')}</span>
+                            </Link>
 
                             {/* CONTACT (Direct Link) */}
                             <Link
@@ -263,27 +248,29 @@ export function Navbar() {
                                     {t('home')}
                                 </Link>
 
-                                {/* Mobile Links grouped by Categories */}
-                                {navItems.map((category) => (
-                                    <div key={category.label} className="flex flex-col items-center gap-4 py-4 border-b border-white/5 w-full last:border-0 text-center">
-                                        <span className="text-[10px] font-black font-mono text-primary tracking-[0.3em] uppercase opacity-50">
-                                            {category.label}
-                                        </span>
-                                        {category.links.map((link) => (
-                                            <Link
-                                                key={link.label}
-                                                href={link.href}
-                                                onClick={closeMenu}
-                                                className={cn(
-                                                    'text-2xl font-bold transition-all hover:scale-110 active:scale-95 duration-200',
-                                                    pathname === link.href ? 'text-foreground' : 'text-muted-foreground/60 hover:text-foreground'
-                                                )}
-                                            >
-                                                {link.label}
-                                            </Link>
-                                        ))}
-                                    </div>
-                                ))}
+                                {/* Mobile Blog */}
+                                <Link
+                                    href="/blog"
+                                    onClick={closeMenu}
+                                    className={cn(
+                                        'text-3xl font-black transition-colors',
+                                        pathname.startsWith('/blog') ? 'text-foreground' : 'text-muted-foreground hover:text-foreground'
+                                    )}
+                                >
+                                    {t('blog')}
+                                </Link>
+
+                                {/* Mobile Contact */}
+                                <Link
+                                    href="/contact"
+                                    onClick={closeMenu}
+                                    className={cn(
+                                        'text-3xl font-black transition-colors',
+                                        pathname === '/contact' ? 'text-foreground' : 'text-muted-foreground hover:text-foreground'
+                                    )}
+                                >
+                                    {t('contact')}
+                                </Link>
                             </nav>
 
                             <motion.div
@@ -297,7 +284,7 @@ export function Navbar() {
                                     onClick={toggleLocale}
                                     className="px-6 py-3 rounded-full glass-card text-sm font-medium hover:bg-muted/50 transition-colors"
                                 >
-                                    {currentLocale === 'en' ? 'English' : 'Indonesia'}
+                                    {currentLocale === 'en' ? 'English' : 'Polski'}
                                 </button>
                                 {mounted && (
                                     <AnimatedThemeToggler

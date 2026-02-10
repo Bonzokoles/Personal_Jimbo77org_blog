@@ -132,7 +132,7 @@ export function Footer() {
                         <div className="flex items-center justify-between flex-wrap gap-4">
                             <div className="flex items-center gap-4 md:gap-6">
                                 <Link href="/" className="text-lg md:text-xl font-black text-gradient">
-                                    SYAHRIL ARFIAN ALMAZRIL
+                                    {portfolioData.personal.name.toUpperCase()}
                                 </Link>
                             </div>
 

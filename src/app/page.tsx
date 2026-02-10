@@ -283,16 +283,16 @@ function HeroIntro() {
                 <div className="hero-name mb-6 w-full max-w-6xl mx-auto flex items-center justify-center">
                     {/* Mobile: Static Text (Guarantees wrapping) */}
                     <h1 className="block md:hidden text-5xl font-black text-center leading-tight tracking-tighter">
-                        <span className="text-foreground">Syahril</span> <br />
+                        <span className="text-foreground">KARol</span> <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-accent animate-gradient-x">
-                            Arfian Almazril
+                            LISson bonZO
                         </span>
                     </h1>
 
                     {/* Desktop: TextPressure Canvas (No wrapping needed) */}
                     <div className="hidden md:flex w-full h-[150px] lg:h-[180px] xl:h-[220px] items-center justify-center">
                         <TextPressure
-                            text="Syahril Arfian Almazril"
+                            text="KARol LISson bonZO"
                             flex={false}
                             alpha={false}
                             stroke={false}

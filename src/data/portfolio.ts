@@ -2,57 +2,57 @@ import { PortfolioData } from '@/types';
 
 export const portfolioData: PortfolioData = {
     personal: {
-        name: 'Syahril Arfian Almazril',
-        title: 'Tech Explorer',
-        subtitle: 'AI Engineer • Full Stack Developer • Blockchain Enthusiast | Bridging Technical Innovation with Strategic Execution',
-        bio: 'An Information Technology student at Telkom University with a distinctive profile that fuses deep technical expertise in Artificial Intelligence with proven strategic leadership. Through hands-on experience as an AI Researcher at the Cyber Physical System Laboratory, I develop complex technical solutions—from architecting IoT systems and designing software blueprints to engineering advanced Machine Learning models. Currently exploring AI Agents and Blockchain/Web3 technologies. Driven to leverage this integrated skill set to build initiatives that bridge technical innovation with effective execution.',
-        avatar: '/about/arfazrll.jpeg',
-        location: 'DKI Jakarta, Indonesia',
-        email: 'azril4974@gmail.com',
-        phone: '+6281511463282',
+        name: 'Karol Lisson Bonzo',
+        title: 'Tech Explorer & AI Architect',
+        subtitle: 'AI Engineer • Full Stack Developer • Blockchain Enthusiast',
+        bio: 'Pasjonat technologii specjalizujący się w Full Stack Development, Sztucznej Inteligencji i Data Science. Zgłębiam AI Agents i technologię Blockchain/Web3.',
+        avatar: '/about/apple-touch-icon.jpg',
+        location: 'Polska',
+        email: 'karol@jimbo77.com',
+        phone: '+48 123 456 789',
         resumeUrl: '/resume.pdf',
-        website: 'https://personal-iqyuflz4z-arfazrlls-projects.vercel.app',
+        website: 'https://jimbo77.com',
         languages: [
-            { name: 'Indonesian', level: 'Native' },
-            { name: 'English', level: 'Limited Working' },
-            { name: 'French', level: 'Elementary' },
+            { name: 'Polish', level: 'Native' },
+            { name: 'English', level: 'Professional Working' },
+            { name: 'German', level: 'Elementary' },
         ],
         socialLinks: [
             {
                 platform: 'GitHub',
-                url: 'https://github.com/Arfazrll',
+                url: 'https://github.com/Bonzokoles',
                 icon: 'github',
-                username: 'Arfazrll',
+                username: 'Bonzokoles',
             },
             {
                 platform: 'LinkedIn',
-                url: 'https://linkedin.com/in/syahril-arfian-almazril',
+                url: 'https://linkedin.com/in/karol-bonzo',
                 icon: 'linkedin',
-                username: 'syahril-arfian-almazril',
+                username: 'karol-bonzo',
             },
             {
                 platform: 'Twitter',
-                url: 'https://twitter.com/arfazrll',
+                url: 'https://twitter.com/bonzokoles',
                 icon: 'twitter',
-                username: '@arfazrll',
+                username: '@bonzokoles',
             },
             {
                 platform: 'Instagram',
-                url: 'https://instagram.com/arfazrll',
+                url: 'https://instagram.com/bonzokoles',
                 icon: 'instagram',
-                username: 'arfazrll',
+                username: 'bonzokoles',
             },
             {
                 platform: 'Discord',
-                url: 'https://discord.com/users/arfazrll',
+                url: 'https://discord.com/users/bonzokoles',
                 icon: 'discord',
-                username: 'arfazrll',
+                username: 'bonzokoles',
             },
             {
                 platform: 'Spotify',
-                url: 'https://open.spotify.com/user/arfazrll',
+                url: 'https://open.spotify.com/user/bonzokoles',
                 icon: 'spotify',
-                username: 'arfazrll',
+                username: 'bonzokoles',
             },
         ],
     },
@@ -66,8 +66,8 @@ export const portfolioData: PortfolioData = {
             techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Three.js', 'Framer Motion', 'GSAP'],
             tools: ['VS Code', 'Figma', 'GitHub'],
             status: 'completed',
-            demoUrl: 'https://personal-iqyuflz4z-arfazrlls-projects.vercel.app',
-            repoUrl: 'https://github.com/Arfazrll/PersonalBlog',
+            demoUrl: 'https://jimbo77.com',
+            repoUrl: 'https://github.com/Bonzokoles/PersonalBlog',
             startDate: '2025-01-20',
             highlights: ['3D animations', 'Scroll effects', 'Bilingual EN/ID'], // Keep for backward compatibility if needed, or rely on features
             category: 'Creative Tech',
@@ -101,7 +101,7 @@ export const portfolioData: PortfolioData = {
             installation: [
                 {
                     title: 'Clone the Repository',
-                    code: 'git clone https://github.com/Arfazrll/PersonalBlog.git\ncd PersonalBlog',
+                    code: 'git clone https://github.com/Bonzokoles/PersonalBlog.git\ncd PersonalBlog',
                     type: 'code'
                 },
                 {
@@ -115,7 +115,7 @@ export const portfolioData: PortfolioData = {
                     code:
                         `Create a .env.local file in the root directory:
 
-NEXT_PUBLIC_GITHUB_USERNAME=Arfazrll
+NEXT_PUBLIC_GITHUB_USERNAME=Bonzokoles
 WAKATIME_API_KEY=your_wakatime_key`
                 },
                 {
